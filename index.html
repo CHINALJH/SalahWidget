@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>js网页日期插件</title>
+        <script type="text/javascript" src="laydate/laydate.js"></script>
+    </head>
+    <body>
+        <!-- 兼容：谷歌、IE+8、Open、火狐
+             istime: false; 定义小时   false：不显示  true：显示， 
+             format: 'YYYY-MM-DD' 
+             时间格式  Y：年份、M：月份、D：天、h：小时、m：分钟、s: 秒
+        -->
+        <input class="laydate-icon" onClick="laydate({istime: false, format: 'YYYY-MM-DD'})" />
+        <input class="laydate-icon" onClick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})" />
+    </body>
+</html>
